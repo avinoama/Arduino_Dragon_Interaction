@@ -1,0 +1,16 @@
+This project is an arduino project use:
+Arduino Nano
+Serial MP3 player
+FSR - Force Sensing Resistors
+Single Addressable LEDS
+
+The code is for fighting a dragon.
+The basic is an interaction when you set up 3 FSR one on each hand and one on the head and a small led light near each sensor.
+When the light is on you need to hit that area.
+
+When the kid wants to fight the dragon he takes a stick and fight.
+
+For more information please see the article.
+
+
+
