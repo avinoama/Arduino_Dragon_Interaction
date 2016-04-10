@@ -67,7 +67,7 @@ bool debug = false;
 // for now there are 2 game modes
 // 0 basic for kids
 // 1 mode advance
-int mode = 1 ;
+int mode = 0 ;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -126,7 +126,7 @@ void loop() {
     Serial.print("impactCountDown ");  Serial.print(impactCountDown); Serial.println();
   }
   // current game mode
-  switch (mo) {
+  switch (mode) {
     case 0:
       mode0();
       break;
